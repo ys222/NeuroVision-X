@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+*.ipynb_checkpoints
+dist/
+build/
+*.onnx
+*.pt
+*.pth
+
+# Data
+data/**/*.mp4
+data/**/*.png
+data/**/*.jpg
+
+# OS
+.DS_Store

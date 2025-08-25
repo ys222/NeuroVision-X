@@ -1,0 +1,10 @@
+name: neurovisionx
+channels: [pytorch, conda-forge, defaults]
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - -r requirements.txt
